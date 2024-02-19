@@ -1,0 +1,134 @@
+
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+#hero{
+    background-image: url(urban.jpg);
+    background-size: cover;
+    height: 300px; 
+    margin: 0;
+    color: white; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text1{
+     font-size: 50px;
+     font-weight: bold;
+     
+     color: white ;
+     text-shadow: 2px 6px 1px  #07f5566e;
+
+}
+
+.hero-text2{
+    background: hsla(120, 25%, 20%, 0.443);
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black ;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+#activities{
+    background: #F1FAEE;
+    padding: 70px 0 40px 0;
+    
+}
+
+.activities-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid  hsla(120, 25%, 20%, 0.445);
+}
+
+#pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 50px 0;
+}
+
+.picture-text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#fragrances{
+    background: linear-gradient(#F1FAEE,#f8f8f8);
+    margin: 0;
+}
+
+.avatar{
+    width: 150px;
+    border: 2px solid #4f07f8;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.amin{
+    background-image: url(amin_name.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+#card {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 50px;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    background: #f8f8f8;
+
+    border-bottom: 5px solid #4f07f8;
+    border-radius: 20px;
+
+}
+
+#text-card {
+    margin-left: 10px;
+    color: darkorange;
+    text-shadow: 1px 1px  black ;
+}
+#text-card h3 {
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: black;
+}
+
+#card-section{
+    background:linear-gradient(#f8f8f8 ,#ecebebbd ) ;
+    padding: 40px 0;
+}
+
+.amin:hover {
+    background-image: url(amin\ weiss.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
